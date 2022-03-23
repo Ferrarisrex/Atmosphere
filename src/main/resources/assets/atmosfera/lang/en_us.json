@@ -1,0 +1,7 @@
+{
+  "config.atmosfera.resource_pack_warning": "No sound event was registered. Activate the built-in or a custom Atmosfera resource pack.",
+  "config.category.atmosfera.subtitles": "Subtitles",
+  "config.category.atmosfera.volumes": "Volumes",
+  "config.subcategory.atmosfera.ambient_sound": "Ambient Sound",
+  "config.subcategory.atmosfera.music": "Music"
+}

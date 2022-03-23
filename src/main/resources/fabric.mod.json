@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "atmosfera",
+  "version": "${version}",
+
+  "name": "Atmospherical",
+  "description": "An ambient sound system with customizable, atmospheric sound resources.",
+  "authors": [
+    "Ferrarisrex"
+  ],
+  "contributors": [
+    "Based off of Atmosphera by Haven King"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Haven-King/Atmosfera",
+    "sources": "https://github.com/Haven-King/Atmosfera",
+    "issues": "https://github.com/Haven-King/Atmosfera/issues"
+  },
+
+  "license": "Apache-2.0",
+  "icon": "assets/atmosfera/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.hephaestus.atmosfera.Atmosfera"
+    ],
+    "modmenu": [
+      "dev.hephaestus.atmosfera.AtmosferaModMenuEntrypoint"
+    ]
+  },
+  "mixins": [
+    "atmosfera.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": ">=0.29.3",
+    "cloth-config2": ">=4.8.0",
+    "minecraft": ">=1.16.2"
+  },
+  "recommends": {
+    "modmenu": ">=1.14.0"
+  },
+  "suggests": {
+    "presencefootsteps": "*"
+  },
+  "conflicts": {
+    "charmonium": "*",
+    "mambience": "*",
+    "primalwinter": "*"
+  },
+  "breaks": {
+    "modmenu": "<1.14.0"
+  }
+}
